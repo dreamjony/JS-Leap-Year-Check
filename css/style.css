@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(34, 1, 41), rgb(83, 21, 21));
+}
+
+/* Styling for the "Leap Year Checker" heading */
+.container h2 {
+    color: rgb(8, 52, 52);
+    font-size: 30px;
+    font-weight: bolder;  
+    margin-bottom: 20px; /* Add margin bottom to separate from other elements */
+}
+
+.result {
+    color: rgb(114, 3, 3); /* Changing text color to white */    
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    background: linear-gradient(to bottom right, rgb(187, 174, 174), rgb(213, 69, 3));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.8);    
+}
+
